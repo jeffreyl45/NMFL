@@ -1,0 +1,5 @@
+langgraph==0.6.2
+langchain==0.3.27
+langchain-core==0.3.72
+langchain-ollama==0.3.6
+ollama
