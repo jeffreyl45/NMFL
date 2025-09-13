@@ -45,6 +45,8 @@ def main():
             # Run the workflow
             print("Invoking")
             result = app.invoke(init_state)
+            print(result)
+            print(result.get("_timings"))
             print("Finished invoking")
             output = result.get("output")
             
